@@ -2,4 +2,5 @@
 PlayGround Intermedio
 
 Estoy teniendo problemas con :
-1- subir el seed_data (lo he querido cargar como va y con solo alumnos, pero me da error)
+1- busqueda (familiares/autos/mascotas)
+2- alta (familiares/autos/mascotas)
