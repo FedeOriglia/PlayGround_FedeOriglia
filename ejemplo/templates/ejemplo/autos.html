@@ -1,7 +1,7 @@
 {% extends 'ejemplo/base.html' %}
 {% block titulo%} Lista de Autos {% endblock %}
 {% block contenido %}
-  <a href="/mi-familia/alta_auto">Auto Nuevo</a>
+  
   {% for auto in lista_autos %}
       <ul>
           <li> Marca: {{auto.marca}}, Modelo: {{auto.modelo}}, Anio: {{auto.anio}}</li>

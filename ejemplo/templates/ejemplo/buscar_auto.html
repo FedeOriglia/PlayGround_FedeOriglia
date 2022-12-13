@@ -2,7 +2,7 @@
 {% block titulo%} Buscar Auto por Marca {% endblock %}
 {% block contenido %}
   
-  <form action="/mi-familia/buscar auto" method="post">
+  <form action="/mi-familia/buscar_auto" method="post">
     {% csrf_token %}
     {{ form }}
     <input type="submit" value="Buscar">

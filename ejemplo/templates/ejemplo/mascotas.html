@@ -1,7 +1,7 @@
 {% extends 'ejemplo/base.html' %}
-{% block titulo%} Lista de todas las Mascotas {% endblock %}
+{% block titulo%} Lista de Mascotas {% endblock %}
 {% block contenido %}
-  <a href="/mi-familia/alta_mascota">Nuevo Mascota</a>
+  
   {% for mascota in lista_mascotas %}
       <ul>
           <li> Especie: {{mascota.especie}}, Nombre: {{mascota.nombre}}, Edad: {{mascota.edad}}</li>

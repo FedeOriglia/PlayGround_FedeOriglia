@@ -2,7 +2,7 @@
 {% block titulo%} Buscar Mascota por Especie {% endblock %}
 {% block contenido %}
   
-  <form action="/mi-familia/buscar mascota" method="post">
+  <form action="/mi-familia/buscar_mascota" method="post">
     {% csrf_token %}
     {{ form }}
     <input type="submit" value="Buscar">
