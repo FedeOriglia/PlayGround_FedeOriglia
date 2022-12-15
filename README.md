@@ -14,4 +14,14 @@ de esta forma deberiamos contar con todos los datos (ver mensaje de correcta imp
 
 2 - En el browser se tiene el menú de opciones sobre los cuales podemos interactuar. Ejecutar uno a uno para su correcto uso! (por ej. http://127.0.0.1:8000/mi-familia/familia).
 
+mi-familia/familia - "Muestra familiares presentes en la Base de Datos"
+mi-familia/autos - "Muestra autos presentes en la Base de Datos"
+mi-familia/mascotas - "Muestra mascotas presentes en la Base de Datos"
+mi-familia/buscar_familiar - "Buscar un familiar por Nombre"
+mi-familia/alta_familiar - "Alta de un familiar"
+mi-familia/buscar_auto - "Buscar auto por Marca"
+mi-familia/alta_auto - "Alta de Auto"
+mi-familia/buscar_mascota - "Buscar Mascota por Especie"
+mi-familia/alta_mascota - "Alta de Mascota"
+
 Muchas gracias.
