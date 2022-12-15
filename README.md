@@ -1,7 +1,13 @@
 # PlayGround_FedeOriglia
 PlayGround Intermedio
 
-1 - Importar el seed_data haciendo lo siguiente en el shell:
+1 - Para crear/resetear tu base de datos vas a tener que hacer los siguientes pasos:
+* - Borra el archivo SQLite en la raiz del directorio ejemplo
+* - En el terminal de VSC coloca python manage.py migrate
+* - Luego en la misma terminal haces python manage.py runserver (si ahora ves en tu
+    web http://127.0.0.1:8000, va a mostrarte las listas vacias)
+
+2 - Importar el seed_data haciendo lo siguiente en el shell:
 * python manage.py shell
 * import seed_data
 de esta forma deberiamos contar con todos los datos (ver mensaje de correcta importacion de los mismos), para Familiares, Autos y Mascotas del presente modelo.
